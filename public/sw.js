@@ -1,0 +1,12 @@
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-sw.js');
+workbox
+.precaching
+.precacheAndRoute([
+  {"revision":"21e43b10ddc470d475a011dc921ed290","url":"index.html"},
+  {"revision":"4b069448f53640f50eef7a166162ba37","url":"logo192.png"},
+  {"revision":"415f79e9d1c03c00dd754496a34ecc3f","url":"logo512.png"},
+  {"revision":"4d4d5fbee8a2db97c3c9adf62568e7b5","url":"static/css/main.ea1455b2.chunk.css"},
+  {"revision":"baa83d876a35d3b174a8a3c85a184ab9","url":"static/js/2.93bc7f7c.chunk.js"},
+  {"revision":"8669a39c8ecc9e31458d1ebaf750b2c0","url":"static/js/main.7b19fb70.chunk.js"},
+  {"revision":"83aa02728f4159e53be61df8ad4b9039","url":"static/js/runtime-main.44d6bd16.js"}
+  ]);
